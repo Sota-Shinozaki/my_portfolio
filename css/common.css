@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+  font-family: Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.nav_all {
+  width: 100%;
+  position: fixed;
+  background-color: #644D46;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_item {
+  font-size: 22px;
+  padding: 0 50px;
+}
+
+.nav_link {
+  display: inline-block;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.nav_link:hover {
+  color: #75a9ff;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  height: 700px;
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+}
+
+.top_title {
+  font-size: 70px;
+  font-weight: bold;  color: #fff;
+  letter-spacing: 5px;
+  border-bottom: #fff 1px solid;
+  margin: 100px 0 0 50px;
+  padding: 0 50px;
+}
+
+.top_subtitle {
+  font-size: 30px;
+  font-weight: bold;  color: #fff;
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #A47D72;
+  color: #fff;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 60px;
+  background-color: #644D46;
+  width: 350px;
+  border-radius: 10px 100px / 120px;
+}
+
+
+
+.font2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.font3 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.font4 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about_img {
+  display: block;
+  width: 30%;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
+}
+
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 60px;
+}
+
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.contact_list {
+  display: flex;  align-items: center;
+  justify-content: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+
+.contact_item {
+  width: 60px;
+}
+
+.contact_mail {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
